@@ -13,6 +13,9 @@ work_dir = './data';
 % path to liblinear library
 addpath('path-to-liblinear-library');
 
+% add path to modes2sDMmat/sDMmat2vecfeat
+addpath('func');
+
 % load modes to classify
 S_load = load(fullfile(work_dir,'modes.mat'));
 

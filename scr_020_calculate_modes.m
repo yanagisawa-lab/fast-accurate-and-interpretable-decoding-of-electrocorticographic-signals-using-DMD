@@ -10,6 +10,9 @@ svd_rank = 2;
 % directory to load/save results
 work_dir = './data';
 
+% add path to stacking_dmd_preproc/stacking_dmd_acquire_modes
+addpath('func');
+
 % load signals
 S_load = load(fullfile(work_dir,'signals.mat'));
 
